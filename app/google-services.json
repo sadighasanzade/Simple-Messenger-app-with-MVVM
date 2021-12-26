@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1049941072095",
+    "project_id": "khazar-messenger",
+    "storage_bucket": "khazar-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049941072095:android:8db06bd85ed1365399316a",
+        "android_client_info": {
+          "package_name": "com.example.khazarmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049941072095-c9knsuc85fma32c6igf0i4dsv1ut5r4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKugJe3j3_Ohk0KSW5lbpcZlIEog9zC5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049941072095-c9knsuc85fma32c6igf0i4dsv1ut5r4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

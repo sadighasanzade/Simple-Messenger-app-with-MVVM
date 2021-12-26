@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/log_out"
+    android:title="log out"
+    android:icon="@drawable/ic_log_out"
+    app:showAsAction="always"
+    android:iconTint="@color/white"
+    />
+<item
+    android:id="@+id/update"
+    android:title="update"
+    android:icon="@drawable/ic_update"
+    app:showAsAction="always"
+    android:iconTint="@color/white"
+    />
+
+</menu>

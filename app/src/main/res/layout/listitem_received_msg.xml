@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxWidth="300dp"
+    android:gravity="left"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:id="@+id/received_msg"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" this message is received "
+        android:textSize="20sp"
+        android:background="@color/green"
+        android:textColor ="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        />
+</LinearLayout>

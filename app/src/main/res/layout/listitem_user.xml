@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    app:cardCornerRadius="10dp"
+    android:outlineProvider="bounds"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+<LinearLayout
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+>
+
+    <ImageView
+        android:id="@+id/profile_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        android:layout_marginStart="12dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Sadig Hasanzade"/>
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
