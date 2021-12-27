@@ -111,6 +111,7 @@ class NetworkOperations {
         databaseRef.child("Users").addValueEventListener(object: ValueEventListener{
 
             override fun onDataChange(snapshot: DataSnapshot) {
+                list.clear()
                 for(postSnapShot in snapshot.children){
                     val user = postSnapShot.getValue(User::class.java)
                     if(Firebase.auth.currentUser!!.uid != user?.userId) {
@@ -147,6 +148,7 @@ class NetworkOperations {
         databaseRef.child("chats").child(senderRoom).child("messages").addValueEventListener(
             object:ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
+                    messages.clear()
                     for(post in snapshot.children){
                         val message = post.getValue(Message::class.java)
                         messages.add(message)
